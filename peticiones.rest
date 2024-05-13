@@ -1,0 +1,34 @@
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+    "title": "MonoEscena",
+    "description": "Web para la compañía de producción escénica Mono Escena fundada en el año 2023, una página que podríamos definir como simple, la cuál funciona como una vía de comunicación unilateral por parte de la compañía hacia sus clientes. El desarrollo en este caso se centra en lograr una vistosidad con un front cuidado que busca transmitir a los usuarios la información de manera elegante y con ese aura que trae de la mano el propio teatro en sus múltiples formas y facetas.",
+    "img": "../../../assets/img/ME.jpg",
+    "git": "https://github.com/CristianLafu/MonoEscena",
+    "url": "none",
+    "status": "false"
+}
+
+
+
+###
+GET http://localhost:3000/api/posts
+
+
+
+
+
+
+
+
+
+
+# {
+#     "title": "IDfashion",
+#     "description": "Se trata de un e-comerce diseñado en equipo como trabajo final del bootcamp de ID bootcamps Programación y desarrollo web Full Stack, aquí formamos equipo cinco desarrolladores para en el plazo de dos semana desarrollar el front y el back de una web dedicada al comercio online de artículos de moda. Es una web funcional hasta su pasarela de pago y se puede acceder a ella al igual que se puede visitar en Github, es un proyecto con el que me encuentro orgulloso y me alegro de haber podido pertenecer al grupo que lo hizo posible en un espacio temporal relativamente corto, más aún teniendo en cuenta que a fecha del proyecto nos encontrábamos dentro de nuestro periodo formativo.",
+#     "img": "../../../assets/img/IdFashion.jpg",
+#     "git": "https://github.com/CristianLafu/Front-IdFashin",
+#     "url": "https://idfashionproject.web.app/home",
+#     "status": "true"
+# }
